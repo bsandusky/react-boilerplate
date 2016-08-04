@@ -11,5 +11,4 @@ To get started, clone this repo, install dependencies, then start process:
   > cd react-boilerplate
   > npm install
   > npm start
-
 ```
