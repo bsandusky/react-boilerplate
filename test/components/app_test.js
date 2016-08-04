@@ -1,11 +1,13 @@
-import { renderComponent , expect } from '../test_helper';
+import { TestUtils , expect } from '../test_helper';
 import App from '../../src/components/app';
 
 describe('App' , () => {
   let component;
 
   beforeEach(() => {
-    component = renderComponent(App);
+    const shallowRenderer = TestUtils.createRenderer();
+    shallowRenderer.render(<App />);
+    component = shallowRenderer.getRenderOutput();
   });
 
   it('renders something', () => {
