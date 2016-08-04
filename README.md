@@ -2,7 +2,7 @@
 
 Simple  boilerplate for React with Babel support, Webpack, and Mocha/Chai tests.
 
-Adapted from the Stephen Grider's [Redux Simple Starter](https://github.com/stephengrider/reduxsimplestarter)
+Adapted from Stephen Grider's [Redux Simple Starter](https://github.com/stephengrider/reduxsimplestarter)
 
 To get started, clone this repo, install dependencies, then start process:
 
